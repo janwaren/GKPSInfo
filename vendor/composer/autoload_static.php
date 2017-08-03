@@ -24,6 +24,7 @@ class ComposerStaticInit7f9243d510064e2afbd624c204a02577
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+            'yidas\\yii2BowerAsset\\' => 21,
         ),
         'p' => 
         array (
@@ -61,6 +62,7 @@ class ComposerStaticInit7f9243d510064e2afbd624c204a02577
         ),
         'F' => 
         array (
+            'Fxp\\Composer\\AssetPlugin\\' => 25,
             'Faker\\' => 6,
         ),
         'D' => 
@@ -103,6 +105,10 @@ class ComposerStaticInit7f9243d510064e2afbd624c204a02577
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'yidas\\yii2BowerAsset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yidas/yii2-bower-asset',
         ),
         'phpDocumentor\\Reflection\\' => 
         array (
@@ -169,6 +175,10 @@ class ComposerStaticInit7f9243d510064e2afbd624c204a02577
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'Fxp\\Composer\\AssetPlugin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fxp/composer-asset-plugin',
         ),
         'Faker\\' => 
         array (
