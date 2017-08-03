@@ -1,0 +1,6 @@
+[14-Mar-2017 02:20:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10
+[14-Mar-2017 10:30:38 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10
+[14-Mar-2017 18:36:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10
+[15-Mar-2017 00:55:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10
+[21-May-2017 00:47:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10
+[22-May-2017 13:29:12 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-gelar/index.php on line 10

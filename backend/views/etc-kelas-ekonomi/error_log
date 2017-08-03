@@ -1,0 +1,8 @@
+[14-Mar-2017 03:00:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[14-Mar-2017 11:06:48 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[14-Mar-2017 18:53:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[15-Mar-2017 14:42:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[08-Jul-2017 10:00:15 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[08-Jul-2017 17:59:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[09-Jul-2017 02:09:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10
+[10-Jul-2017 05:26:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-kelas-ekonomi/index.php on line 10

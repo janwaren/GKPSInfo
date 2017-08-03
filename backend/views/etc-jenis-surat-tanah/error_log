@@ -1,0 +1,4 @@
+[14-Mar-2017 03:38:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-jenis-surat-tanah/index.php on line 10
+[14-Mar-2017 11:32:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-jenis-surat-tanah/index.php on line 10
+[14-Mar-2017 19:11:02 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-jenis-surat-tanah/index.php on line 10
+[15-Mar-2017 15:10:45 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/etc-jenis-surat-tanah/index.php on line 10

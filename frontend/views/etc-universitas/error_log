@@ -1,0 +1,4 @@
+[21-Feb-2017 10:07:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-universitas/index.php on line 10
+[21-Feb-2017 18:16:45 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-universitas/index.php on line 10
+[22-Feb-2017 03:12:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-universitas/index.php on line 10
+[22-Feb-2017 08:42:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-universitas/index.php on line 10

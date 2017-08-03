@@ -1,0 +1,4 @@
+[21-Feb-2017 00:51:53 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/karir-external/index.php on line 10
+[21-Feb-2017 07:59:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/karir-external/index.php on line 10
+[21-Feb-2017 14:04:38 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/karir-external/index.php on line 10
+[21-Feb-2017 20:48:54 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/karir-external/index.php on line 10

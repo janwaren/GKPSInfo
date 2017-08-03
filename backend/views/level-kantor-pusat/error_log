@@ -1,0 +1,9 @@
+[14-Mar-2017 03:21:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[14-Mar-2017 11:19:51 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[14-Mar-2017 19:02:12 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[15-Mar-2017 14:56:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[25-Jul-2017 21:03:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[26-Jul-2017 16:56:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[26-Jul-2017 23:48:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[27-Jul-2017 15:31:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10
+[31-Jul-2017 04:04:53 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-kantor-pusat/index.php on line 10

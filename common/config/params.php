@@ -1,6 +1,7 @@
 <?php
 return [
-    'adminEmail' => 'admin@example.com',
-    'supportEmail' => 'support@example.com',
+    'adminEmail' => 'admin@gkpsinfo.or.id',
+    'supportEmail' => 'support@gkpsinfo.or.id',
     'user.passwordResetTokenExpire' => 3600,
+    'txtErrorForbidden' => 'Hak akses anda tidak mencukupi melakukan operasi ini.',
 ];

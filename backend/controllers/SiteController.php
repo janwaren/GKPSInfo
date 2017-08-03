@@ -2,10 +2,12 @@
 namespace backend\controllers;
 
 use Yii;
-use yii\web\Controller;
-use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use yii\web\Controller;
 use common\models\LoginForm;
+use yii\filters\VerbFilter;
+
+use backend\models\ModelHistorySearch;
 
 /**
  * Site controller
@@ -60,7 +62,16 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+
+        $modelHistorySearchModel = new ModelHistorySearch();
+        $modelHistoryQueryParams = ['ModelHistorySearch' => [],
+                                'r' => 'model-history'];        
+        $modelHistoryDataProvider = $modelHistorySearchModel->search($modelHistoryQueryParams);
+
+
+        return $this->render('index', [
+            'modelHistoryDataProvider' => $modelHistoryDataProvider,
+        ]);
     }
 
     /**
@@ -70,7 +81,10 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
-        if (!Yii::$app->user->isGuest) {
+
+        $this->layout = 'layout-login';
+
+        if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
 
@@ -84,11 +98,6 @@ class SiteController extends Controller
         }
     }
 
-    /**
-     * Logout action.
-     *
-     * @return string
-     */
     public function actionLogout()
     {
         Yii::$app->user->logout();

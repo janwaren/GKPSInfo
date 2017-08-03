@@ -1,0 +1,4 @@
+[14-Mar-2017 03:23:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-keluarga/index.php on line 10
+[14-Mar-2017 11:22:50 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-keluarga/index.php on line 10
+[14-Mar-2017 19:03:26 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-keluarga/index.php on line 10
+[15-Mar-2017 14:58:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-keluarga/index.php on line 10

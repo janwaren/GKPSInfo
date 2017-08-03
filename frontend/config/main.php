@@ -14,16 +14,19 @@ return [
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
-        ],
-        'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
-        ],
-        'session' => [
-            // this is the name of the session cookie used for login on the frontend
-            'name' => 'advanced-frontend',
-        ],
+        ],  
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
+            'useFileTransport' => false,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'mx1.idhostinger.com',
+                'username' => 'admin@gkpsinfo.or.id',
+                'password' => 'Matius 28:19-20',
+                'port' => '587',
+                'encryption' => 'tls',
+            ],            
+        ],              
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -36,14 +39,31 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
+            'enablePrettyUrl' => false,
             'showScriptName' => false,
+            'class' => 'yii\web\UrlManager',
+            'hostInfo' => '/frontend',
             'rules' => [
             ],
         ],
-        */
+        'urlManagerBackend' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'class' => 'yii\web\UrlManager',
+            'hostInfo' => '/backend',
+            'baseUrl' => '/backend/web',
+            'rules' => [
+    
+            ],
+        ],
+        
     ],
+    'modules' => [
+        'user' => [
+            // following line will restrict access to admin controller from frontend application
+            'as frontend' => 'dektrium\user\filters\FrontendFilter',
+        ],
+    ],    
     'params' => $params,
 ];
