@@ -1,0 +1,3 @@
+[19-Mar-2017 16:09:31 UTC] PHP Fatal error:  Class 'yii\console\controllers\FixtureController' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-faker/FixtureController.php on line 140
+[19-Mar-2017 23:11:50 UTC] PHP Fatal error:  Class 'yii\console\controllers\FixtureController' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-faker/FixtureController.php on line 140
+[21-Mar-2017 04:04:35 UTC] PHP Fatal error:  Class 'yii\console\controllers\FixtureController' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-faker/FixtureController.php on line 140

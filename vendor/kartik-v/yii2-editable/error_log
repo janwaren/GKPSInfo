@@ -1,0 +1,1 @@
+[27-Apr-2017 03:46:10 UTC] PHP Fatal error:  Class 'kartik\base\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/kartik-v/yii2-editable/EditablePjaxAsset.php on line 24

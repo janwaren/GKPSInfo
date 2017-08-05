@@ -1,0 +1,4 @@
+[14-Mar-2017 03:54:45 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-riwayat-hidup/index.php on line 10
+[14-Mar-2017 11:40:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-riwayat-hidup/index.php on line 10
+[14-Mar-2017 19:22:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-riwayat-hidup/index.php on line 10
+[15-Mar-2017 03:16:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-riwayat-hidup/index.php on line 10

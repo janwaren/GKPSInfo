@@ -1,0 +1,430 @@
+2016-08-08 16:22:54 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 C:\wamp64\www\gkpsnet\vendor\dektrium\yii2-user\migrations\m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140209_132017_init->up()
+#4 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\wamp64\www\gkpsnet\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(25) NOT NULL,
+	`email` varchar(255) NOT NULL,
+	`password_hash` varchar(60) NOT NULL,
+	`auth_key` varchar(32) NOT NULL,
+	`confirmation_token` varchar(32),
+	`confirmation_sent_at` int(11),
+	`confirmed_at` int(11),
+	`unconfirmed_email` varchar(255),
+	`recovery_token` varchar(32),
+	`recovery_sent_at` int(11),
+	`blocked_at` int(11),
+	`registered_from` int(11),
+	`logged_in_from` int(11),
+	`logged_in_at` int(11),
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 C:\wamp64\www\gkpsnet\vendor\dektrium\yii2-user\migrations\m140209_132017_init.php(40): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140209_132017_init->up()
+#4 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140209_132017_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#9 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#10 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 C:\wamp64\www\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\wamp64\www\gkpsnet\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2016-08-08 16:22:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Purba Family\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-OQFTJEL'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Purba Family'
+    'LOCALAPPDATA' => 'C:\\Users\\Purba Family\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.16;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\Purba Family\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\PURBAF~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\PURBAF~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-OQFTJEL'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-OQFTJEL'
+    'USERNAME' => 'Purba Family'
+    'USERPROFILE' => 'C:\\Users\\Purba Family'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1470673366.3854
+    'REQUEST_TIME' => 1470673366
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dektrium/yii2-user/migrations'
+    ]
+    'argc' => 3
+]
+2016-09-13 18:11:37 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', 'Yohanes3:16', NULL)
+#1 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Schema.php(149): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\MigrateController.php(178): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(627): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(102): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#17 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#18 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#19 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#20 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\xampp\htdocs\gkpsnet\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\db\Schema.php(149): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\MigrateController.php(178): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(627): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(102): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#15 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#16 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#17 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#18 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 C:\xampp\htdocs\gkpsnet\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2016-09-13 18:11:34 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\janwa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-Q3S2I78'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\janwa'
+    'LOCALAPPDATA' => 'C:\\Users\\janwa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\janwa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-Q3S2I78'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-Q3S2I78'
+    'USERNAME' => 'janwa'
+    'USERPROFILE' => 'C:\\Users\\janwa'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473783094.8844
+    'REQUEST_TIME' => 1473783094
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-09-13 18:11:57 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140506_102106_rbac_init->up()
+#2 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#7 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#8 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#9 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#10 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\xampp\htdocs\gkpsnet\yii(27): yii\base\Application->run()
+#12 {main}
+2016-09-13 18:11:53 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\janwa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-Q3S2I78'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\janwa'
+    'LOCALAPPDATA' => 'C:\\Users\\janwa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\janwa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-Q3S2I78'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-Q3S2I78'
+    'USERNAME' => 'janwa'
+    'USERPROFILE' => 'C:\\Users\\janwa'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473783113.2219
+    'REQUEST_TIME' => 1473783113
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-09-13 18:14:43 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m140506_102106_rbac_init->up()
+#2 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#7 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#8 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#9 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#10 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\xampp\htdocs\gkpsnet\yii(27): yii\base\Application->run()
+#12 {main}
+2016-09-13 18:14:40 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\janwa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-Q3S2I78'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\janwa'
+    'LOCALAPPDATA' => 'C:\\Users\\janwa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\janwa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-Q3S2I78'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-Q3S2I78'
+    'USERNAME' => 'janwa'
+    'USERPROFILE' => 'C:\\Users\\janwa'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473783280.8843
+    'REQUEST_TIME' => 1473783280
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-09-13 18:19:40 [-][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class db does not exist' in C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Container.php:422
+Stack trace:
+#0 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Container.php(422): ReflectionClass->__construct('db')
+#1 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Container.php(362): yii\di\Container->getDependencies('db')
+#2 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('db', Array, Array)
+#3 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Instance.php(157): yii\di\Container->get('db')
+#4 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\di\Instance.php(131): yii\di\Instance->get(NULL)
+#5 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\controllers\MigrateController.php(152): yii\di\Instance::ensure('db', 'yii\\db\\Connecti...')
+#6 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Controller.php(152): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#7 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('up', Array)
+#8 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('up', Array)
+#9 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#10 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#11 C:\xampp\htdocs\gkpsnet\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\xampp\htdocs\gkpsnet\yii(27): yii\base\Application->run()
+#13 {main}
+2016-09-13 18:19:40 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\janwa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-Q3S2I78'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\janwa'
+    'LOCALAPPDATA' => 'C:\\Users\\janwa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\janwa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\janwa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-Q3S2I78'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-Q3S2I78'
+    'USERNAME' => 'janwa'
+    'USERPROFILE' => 'C:\\Users\\janwa'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473783580.261
+    'REQUEST_TIME' => 1473783580
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]

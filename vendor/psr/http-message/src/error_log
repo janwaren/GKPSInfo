@@ -1,0 +1,1 @@
+[18-Jun-2017 04:49:04 UTC] PHP Fatal error:  Interface 'Psr\Http\Message\MessageInterface' not found in /home/gkpsinfo/public_html/vendor/psr/http-message/src/RequestInterface.php on line 25

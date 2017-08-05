@@ -1,0 +1,8 @@
+[14-Mar-2017 03:17:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[14-Mar-2017 11:17:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[14-Mar-2017 18:58:21 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[15-Mar-2017 14:48:02 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[11-Jul-2017 15:38:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[12-Jul-2017 02:17:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[12-Jul-2017 03:33:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10
+[14-Jul-2017 01:48:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kursus/index.php on line 10

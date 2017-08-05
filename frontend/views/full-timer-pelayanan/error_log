@@ -1,0 +1,4 @@
+[21-Feb-2017 10:31:16 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/full-timer-pelayanan/index.php on line 10
+[21-Feb-2017 18:30:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/full-timer-pelayanan/index.php on line 10
+[22-Feb-2017 03:26:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/full-timer-pelayanan/index.php on line 10
+[23-Feb-2017 02:56:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/full-timer-pelayanan/index.php on line 10

@@ -1,0 +1,1 @@
+[26-Apr-2017 09:14:19 UTC] PHP Fatal error:  Class 'yii\debug\DebugAsset' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/views/layouts/main.php on line 6

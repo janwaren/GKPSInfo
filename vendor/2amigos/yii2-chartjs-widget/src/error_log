@@ -1,0 +1,2 @@
+[01-May-2017 02:30:48 UTC] PHP Fatal error:  Class 'yii\base\Widget' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-chartjs-widget/src/ChartJs.php on line 25
+[07-Jun-2017 19:35:51 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-chartjs-widget/src/ChartJsAsset.php on line 20

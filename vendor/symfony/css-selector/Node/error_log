@@ -1,0 +1,10 @@
+[19-Mar-2017 06:11:00 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/FunctionNode.php on line 27
+[22-Apr-2017 18:19:53 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/PseudoNode.php on line 25
+[22-Apr-2017 19:30:35 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/NegationNode.php on line 25
+[22-Apr-2017 20:58:58 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/ElementNode.php on line 25
+[22-Apr-2017 21:58:52 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/AttributeNode.php on line 25
+[23-Apr-2017 01:09:44 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 25
+[23-Apr-2017 03:32:50 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/ClassNode.php on line 25
+[23-Apr-2017 07:35:38 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/SelectorNode.php on line 25
+[25-Apr-2017 22:23:08 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/HashNode.php on line 25
+[26-Apr-2017 00:45:19 UTC] PHP Fatal error:  Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /home/gkpsinfo/public_html/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 25

@@ -1,0 +1,7 @@
+[14-Mar-2017 03:00:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[14-Mar-2017 11:10:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[14-Mar-2017 18:54:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[15-Mar-2017 14:43:55 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[08-Jul-2017 10:40:12 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[08-Jul-2017 18:04:23 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10
+[09-Jul-2017 06:02:33 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/full-timer-kuliah/index.php on line 10

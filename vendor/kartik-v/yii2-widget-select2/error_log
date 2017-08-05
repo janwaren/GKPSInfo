@@ -1,0 +1,1 @@
+[07-Jun-2017 16:24:22 UTC] PHP Fatal error:  Class 'kartik\base\InputWidget' not found in /home/gkpsinfo/public_html/vendor/kartik-v/yii2-widget-select2/Select2.php on line 31

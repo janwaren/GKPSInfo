@@ -1,0 +1,2 @@
+[12-May-2017 16:40:08 UTC] PHP Fatal error:  Class 'yii\widgets\InputWidget' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-date-picker-widget/src/DateRangePicker.php on line 23
+[07-Jun-2017 22:49:25 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-date-picker-widget/src/DateRangePickerAsset.php on line 20

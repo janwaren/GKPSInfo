@@ -1,0 +1,6 @@
+[13-Apr-2017 19:17:00 UTC] PHP Fatal error:  Class 'yii\base\Action' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/RequestExecuteAction.php on line 21
+[16-Apr-2017 09:38:11 UTC] PHP Fatal error:  Class 'yii\debug\models\search\Base' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/SearchModel.php on line 15
+[17-Apr-2017 12:31:57 UTC] PHP Fatal error:  Class 'yii\debug\Panel' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/HttpClientPanel.php on line 28
+[07-May-2017 04:34:35 UTC] PHP Fatal error:  Class 'yii\debug\Panel' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/HttpClientPanel.php on line 28
+[19-May-2017 00:42:07 UTC] PHP Fatal error:  Class 'yii\debug\Panel' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/HttpClientPanel.php on line 28
+[04-Jun-2017 20:02:47 UTC] PHP Fatal error:  Class 'yii\debug\models\search\Base' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-httpclient/debug/SearchModel.php on line 15

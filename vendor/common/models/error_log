@@ -1,0 +1,2 @@
+[30-Apr-2017 13:29:11 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/gkpsinfo/public_html/vendor/common/models/User.php on line 244
+[17-May-2017 23:22:30 UTC] PHP Fatal error:  Class 'yii\base\Model' not found in /home/gkpsinfo/public_html/vendor/common/models/LoginForm.php on line 11

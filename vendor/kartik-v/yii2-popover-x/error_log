@@ -1,0 +1,2 @@
+[25-May-2017 03:22:52 UTC] PHP Fatal error:  Class 'kartik\base\Widget' not found in /home/gkpsinfo/public_html/vendor/kartik-v/yii2-popover-x/PopoverX.php on line 39
+[03-Jun-2017 12:18:07 UTC] PHP Fatal error:  Class 'kartik\base\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/kartik-v/yii2-popover-x/PopoverXAsset.php on line 22

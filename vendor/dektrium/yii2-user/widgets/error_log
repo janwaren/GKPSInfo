@@ -1,0 +1,2 @@
+[25-Apr-2017 22:21:15 UTC] PHP Fatal error:  Class 'yii\authclient\widgets\AuthChoice' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/widgets/Connect.php on line 25
+[26-Apr-2017 02:13:21 UTC] PHP Fatal error:  Class 'yii\base\Widget' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/widgets/Login.php on line 23

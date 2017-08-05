@@ -1,0 +1,9 @@
+[25-Apr-2017 08:24:49 UTC] PHP Fatal error:  Interface 'yii\authclient\ClientInterface' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/ClientInterface.php on line 23
+[25-Apr-2017 16:10:54 UTC] PHP Fatal error:  Class 'yii\authclient\clients\Google' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/Google.php on line 19
+[25-Apr-2017 21:05:58 UTC] PHP Fatal error:  Class 'yii\authclient\clients\Facebook' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/Facebook.php on line 19
+[25-Apr-2017 22:25:38 UTC] PHP Fatal error:  Class 'yii\authclient\clients\Yandex' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/Yandex.php on line 20
+[25-Apr-2017 22:40:07 UTC] PHP Fatal error:  Class 'yii\authclient\clients\Facebook' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/Facebook.php on line 19
+[25-Apr-2017 22:41:36 UTC] PHP Fatal error:  Class 'yii\authclient\clients\GitHub' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/GitHub.php on line 19
+[25-Apr-2017 22:59:35 UTC] PHP Fatal error:  Class 'yii\authclient\clients\Twitter' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/Twitter.php on line 20
+[26-Apr-2017 00:34:22 UTC] PHP Fatal error:  Class 'yii\authclient\clients\LinkedIn' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/LinkedIn.php on line 19
+[26-Apr-2017 00:58:38 UTC] PHP Fatal error:  Class 'yii\authclient\clients\VKontakte' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/clients/VKontakte.php on line 20

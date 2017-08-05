@@ -1,0 +1,4 @@
+[21-Feb-2017 09:52:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-strata/index.php on line 10
+[21-Feb-2017 18:04:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-strata/index.php on line 10
+[22-Feb-2017 03:05:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-strata/index.php on line 10
+[22-Feb-2017 08:36:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-strata/index.php on line 10

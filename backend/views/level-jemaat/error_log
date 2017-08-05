@@ -1,0 +1,7 @@
+[14-Mar-2017 02:25:47 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[14-Mar-2017 10:32:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[14-Mar-2017 18:39:32 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[15-Mar-2017 00:56:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[23-May-2017 23:41:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[24-May-2017 11:01:23 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10
+[24-May-2017 17:35:32 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/backend/views/level-jemaat/index.php on line 10

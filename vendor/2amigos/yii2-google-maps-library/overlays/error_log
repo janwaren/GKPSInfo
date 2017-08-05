@@ -1,0 +1,10 @@
+[25-Apr-2017 23:40:47 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/MarkerShape.php on line 41
+[26-Apr-2017 12:37:43 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/Icon.php on line 35
+[26-Apr-2017 12:38:39 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\overlays\CircleOptions' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/Circle.php on line 24
+[26-Apr-2017 19:04:26 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/GroundOverlayOptions.php on line 29
+[27-Apr-2017 06:18:11 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/InfoWindowOptions.php on line 47
+[27-Apr-2017 07:54:13 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/InfoWindowOptions.php on line 47
+[30-Apr-2017 13:33:12 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\overlays\MarkerOptions' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/Marker.php on line 52
+[01-May-2017 02:23:52 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/PolygonOptions.php on line 52
+[14-May-2017 00:35:34 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\overlays\PolygonOptions' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/Polygon.php on line 26
+[24-May-2017 22:30:24 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/overlays/PolylineOptions.php on line 47

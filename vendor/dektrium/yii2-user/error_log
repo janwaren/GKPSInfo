@@ -1,0 +1,4 @@
+[23-Apr-2017 02:51:14 UTC] PHP Fatal error:  Class 'yii\base\Component' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/Mailer.php on line 25
+[23-Apr-2017 02:52:11 UTC] PHP Fatal error:  Interface 'yii\base\BootstrapInterface' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/Bootstrap.php on line 27
+[23-Apr-2017 04:57:52 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/Finder.php on line 26
+[25-Apr-2017 22:39:17 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/Module.php on line 24

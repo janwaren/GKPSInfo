@@ -1,0 +1,4 @@
+[21-Feb-2017 09:51:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-agama/index.php on line 10
+[21-Feb-2017 18:04:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-agama/index.php on line 10
+[22-Feb-2017 03:04:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-agama/index.php on line 10
+[22-Feb-2017 08:36:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/etc-agama/index.php on line 10

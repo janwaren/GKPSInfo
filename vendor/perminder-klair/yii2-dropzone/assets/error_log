@@ -1,0 +1,1 @@
+[19-Jun-2017 16:54:16 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/perminder-klair/yii2-dropzone/assets/DropZoneAsset.php on line 11

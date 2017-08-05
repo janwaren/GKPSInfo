@@ -1,0 +1,2 @@
+[19-Jun-2017 14:50:20 UTC] PHP Fatal error:  Class 'HTMLPurifier_Bootstrap' not found in /home/gkpsinfo/public_html/vendor/ezyang/htmlpurifier/library/HTMLPurifier.autoload.php on line 11
+[19-Jun-2017 16:28:17 UTC] PHP Fatal error:  Class 'HTMLPurifier_Bootstrap' not found in /home/gkpsinfo/public_html/vendor/ezyang/htmlpurifier/library/HTMLPurifier.autoload.php on line 11

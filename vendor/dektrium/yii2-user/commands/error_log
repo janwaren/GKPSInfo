@@ -1,0 +1,4 @@
+[26-Apr-2017 05:14:03 UTC] PHP Fatal error:  Class 'yii\console\Controller' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/commands/ConfirmController.php on line 27
+[26-Apr-2017 05:14:16 UTC] PHP Fatal error:  Class 'yii\console\Controller' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/commands/PasswordController.php on line 27
+[26-Apr-2017 06:35:20 UTC] PHP Fatal error:  Class 'yii\console\Controller' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/commands/ConfirmController.php on line 27
+[30-Apr-2017 13:18:41 UTC] PHP Fatal error:  Class 'yii\console\Controller' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/commands/CreateController.php on line 27

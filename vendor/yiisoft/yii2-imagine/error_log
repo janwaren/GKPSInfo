@@ -1,0 +1,4 @@
+[18-Mar-2017 02:02:28 UTC] PHP Fatal error:  Class 'yii\imagine\BaseImage' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-imagine/Image.php on line 26
+[18-Mar-2017 07:28:31 UTC] PHP Fatal error:  Class 'yii\imagine\BaseImage' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-imagine/Image.php on line 26
+[18-Mar-2017 17:29:55 UTC] PHP Fatal error:  Class 'yii\imagine\BaseImage' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-imagine/Image.php on line 26
+[19-Mar-2017 14:42:27 UTC] PHP Fatal error:  Class 'yii\imagine\BaseImage' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-imagine/Image.php on line 26

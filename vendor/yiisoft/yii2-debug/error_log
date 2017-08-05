@@ -1,0 +1,17 @@
+[16-Mar-2017 03:48:21 UTC] PHP Fatal error:  Class 'yii\base\Component' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Panel.php on line 27
+[16-Mar-2017 10:50:26 UTC] PHP Fatal error:  Class 'yii\base\Component' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Panel.php on line 27
+[16-Mar-2017 18:57:48 UTC] PHP Fatal error:  Class 'yii\base\Component' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Panel.php on line 27
+[17-Mar-2017 00:34:44 UTC] PHP Fatal error:  Class 'yii\base\Component' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Panel.php on line 27
+[17-Mar-2017 17:29:35 UTC] PHP Fatal error:  Class 'yii\log\Target' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/LogTarget.php on line 22
+[18-Mar-2017 01:39:39 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Module.php on line 24
+[18-Mar-2017 02:57:32 UTC] PHP Fatal error:  Class 'yii\log\Target' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/LogTarget.php on line 22
+[18-Mar-2017 04:37:47 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/DebugAsset.php on line 19
+[18-Mar-2017 07:18:53 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Module.php on line 24
+[18-Mar-2017 10:44:44 UTC] PHP Fatal error:  Class 'yii\log\Target' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/LogTarget.php on line 22
+[18-Mar-2017 11:22:55 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/DebugAsset.php on line 19
+[18-Mar-2017 14:59:26 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Module.php on line 24
+[18-Mar-2017 18:27:52 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/DebugAsset.php on line 19
+[18-Mar-2017 20:00:19 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Module.php on line 24
+[19-Mar-2017 07:04:16 UTC] PHP Fatal error:  Class 'yii\log\Target' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/LogTarget.php on line 22
+[19-Mar-2017 14:27:09 UTC] PHP Fatal error:  Class 'yii\base\Module' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/Module.php on line 24
+[19-Mar-2017 14:49:00 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-debug/DebugAsset.php on line 19

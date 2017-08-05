@@ -1,0 +1,11 @@
+[25-Apr-2017 17:02:25 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/LatLng.php on line 22
+[25-Apr-2017 20:30:13 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/Size.php on line 23
+[25-Apr-2017 20:32:30 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/Event.php on line 24
+[25-Apr-2017 21:00:18 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/PluginManager.php on line 24
+[25-Apr-2017 21:29:50 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/ObjectAbstract.php on line 28
+[25-Apr-2017 21:39:17 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/ClientAbstract.php on line 25
+[25-Apr-2017 21:50:47 UTC] PHP Fatal error:  Class 'yii\web\AssetBundle' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/MapAsset.php on line 42
+[25-Apr-2017 21:59:41 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/LatLngBounds.php on line 27
+[25-Apr-2017 22:01:53 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\ObjectAbstract' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/PluginAbstract.php on line 22
+[25-Apr-2017 22:23:29 UTC] PHP Fatal error:  Class 'dosamigos\google\maps\LatLng' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/LatLngLiteral.php on line 22
+[06-Jul-2017 21:44:30 UTC] PHP Fatal error:  Class 'yii\base\Object' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-google-maps-library/PluginManager.php on line 24

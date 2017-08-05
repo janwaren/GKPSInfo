@@ -1,0 +1,2 @@
+[21-Feb-2017 00:46:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/site/index.php on line 11
+[21-Feb-2017 03:39:26 UTC] PHP Fatal error:  Using $this when not in object context in /home/gkpsinfo/public_html/frontend/views/site/index.php on line 11

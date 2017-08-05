@@ -1,0 +1,2 @@
+[16-Mar-2017 08:04:58 UTC] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/gkpsinfo/public_html/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[22-Jun-2017 04:13:19 UTC] PHP Fatal error:  Class 'Swift_Preferences' not found in /home/gkpsinfo/public_html/vendor/swiftmailer/swiftmailer/lib/preferences.php on line 9

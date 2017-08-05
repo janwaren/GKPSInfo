@@ -1,0 +1,2 @@
+[26-Apr-2017 00:03:17 UTC] PHP Fatal error:  Class 'yii\base\Widget' not found in /home/gkpsinfo/public_html/vendor/perminder-klair/yii2-dropzone/DropZone.php on line 15
+[21-May-2017 22:01:24 UTC] PHP Fatal error:  Class 'yii\base\Widget' not found in /home/gkpsinfo/public_html/vendor/perminder-klair/yii2-dropzone/DropZone.php on line 15

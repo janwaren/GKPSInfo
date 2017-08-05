@@ -1,0 +1,3 @@
+[03-Jun-2017 05:12:11 UTC] PHP Fatal error:  Class 'yii\authclient\OAuth2' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-authclient/clients/Google.php on line 44
+[03-Jun-2017 11:36:56 UTC] PHP Fatal error:  Class 'yii\authclient\OAuth2' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-authclient/clients/LinkedIn.php on line 45
+[07-Jun-2017 15:50:20 UTC] PHP Fatal error:  Class 'yii\authclient\OAuth2' not found in /home/gkpsinfo/public_html/vendor/yiisoft/yii2-authclient/clients/Yandex.php on line 42

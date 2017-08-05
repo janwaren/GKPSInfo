@@ -1,0 +1,4 @@
+[04-Jun-2017 23:35:08 UTC] PHP Fatal error:  Class 'dosamigos\leaflet\layers\PolyLine' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-leaflet-extension/src/layers/Polygon.php on line 27
+[19-Jun-2017 20:40:58 UTC] PHP Fatal error:  Class 'dosamigos\leaflet\layers\Layer' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-leaflet-extension/src/layers/Marker.php on line 29
+[19-Jun-2017 20:47:20 UTC] PHP Fatal error:  Class 'dosamigos\leaflet\layers\Layer' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-leaflet-extension/src/layers/ImageOverlay.php on line 26
+[19-Jun-2017 22:25:57 UTC] PHP Fatal error:  Class 'dosamigos\leaflet\layers\Layer' not found in /home/gkpsinfo/public_html/vendor/2amigos/yii2-leaflet-extension/src/layers/ImageOverlay.php on line 26

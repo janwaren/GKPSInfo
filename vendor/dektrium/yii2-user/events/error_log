@@ -1,0 +1,3 @@
+[27-Apr-2017 01:54:03 UTC] PHP Fatal error:  Class 'yii\base\Event' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/events/AuthEvent.php on line 24
+[19-Jun-2017 14:33:04 UTC] PHP Fatal error:  Class 'yii\base\Event' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/events/FormEvent.php on line 22
+[19-Jun-2017 18:29:41 UTC] PHP Fatal error:  Class 'yii\base\Event' not found in /home/gkpsinfo/public_html/vendor/dektrium/yii2-user/events/UserEvent.php on line 22

@@ -1,0 +1,1 @@
+[23-Apr-2017 07:27:27 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Extractor\ExtractorInterface' not found in /home/gkpsinfo/public_html/vendor/symfony/translation/Extractor/ChainExtractor.php on line 22
