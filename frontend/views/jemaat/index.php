@@ -20,8 +20,15 @@ $this->params['title'] = $this->title;
 ?>
 <div class="jemaat-index">
 
+  <h1><?= Html::encode($this->title) ?></h1>
   <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
+  <p>
+      <?= Html::a('Tambahkan Jemaat', ['create'], ['class' => 'btn btn-success']) ?>
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
       <?php
         $dataTree = [];
         $distriks = Jemaat::find()->where(['level_jemaat_id' => 1])->all();         
@@ -80,20 +87,16 @@ JS
             'clientOptions' => [
                 // 'onNodeSelected' => $onSelect,
                 'selectedBackColor' => 'rgb(40, 153, 57)',
-                'borderColor' => '#F3F3F4',
+                'borderColor' => '#fff',
             ],
         ]);
 
+        echo $groupsContent;
 
       ?>
+    </div> <!-- col-md-4 -->
 
-  <div class="row">
-    
-<!--     <div class="col-md-4">      
-    <?= $groupsContent; ?>
-    </div> -->
-
-    <div class="col-md-12">
+    <div class="col-md-8">
       <?php Pjax::begin(); ?>    <?= GridView::widget([
       'dataProvider' => $dataProvider,
       'filterModel' => $searchModel,
@@ -103,9 +106,7 @@ JS
         ['attribute' => 'nama', 'value' => 'namaFull'],
         'superNamaFull',
         'statusJemaatNama',
-        ['class' => 'yii\grid\ActionColumn',
-         'template' => '{view}',
-        ],
+        ['class' => 'yii\grid\ActionColumn'],
       ],
       ]); ?>
       <?php Pjax::end(); ?>    

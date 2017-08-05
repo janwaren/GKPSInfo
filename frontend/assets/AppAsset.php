@@ -27,14 +27,12 @@ class AppAsset extends AssetBundle
         // Mainly scripts
         //'js/jquery-2.1.1.js',
         'app_js/bootstrap.min.js',
-        'app_js/inspinia.js',        
-        'app_js/gkpsinfo.js',
+        'app_js/plugins/metisMenu/jquery.metisMenu.js',
+        'app_js/plugins/slimscroll/jquery.slimscroll.min.js',
 
         // Custom and plugin javascript
-        'js/plugins/pace/pace.min.js',    
-        'js/plugins/metisMenu/jquery.metisMenu.js',
-        'js/plugins/slimscroll/jquery.slimscroll.min.js',        
-        'js/plugins/dotdotdot/jquery.dotdotdot.min.js',
+        'app_js/inspinia.js',
+        'app_js/plugins/pace/pace.min.js',    
     ];
     public $depends = [
         'yii\web\YiiAsset',

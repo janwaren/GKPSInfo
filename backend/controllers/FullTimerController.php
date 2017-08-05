@@ -159,7 +159,7 @@ class FullTimerController extends Controller
     {
         $model->photoFile = UploadedFile::getInstance($model, 'photoFile');
         if (isset($model->photoFile)) {
-            $photoFileName = $model->id . '_' . $model->nama . '.' . $model->photoFile->extension; 
+            $photoFileName = $model->nama . '.' . $model->photoFile->extension; 
             $photoFilePath = 'photo_full_timer/' . $photoFileName;
             $thumbFilePath = 'photo_full_timer/thumbnails/' . $photoFileName;
             $model->photoFile->saveAs($photoFilePath);
