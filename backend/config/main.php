@@ -11,6 +11,10 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
+    'homeUrl' => '/gkpsinfo/admin',
+    // 'request' => [
+    //     'baseUrl' => '/gkpsinfo/admin', // localhost/yii2advance/admin
+    // ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
@@ -46,14 +50,17 @@ return [
             'class' => 'dektrium\rbac\components\DbManager',
             'defaultRoles' => ['guest'],
         ],           
-        /*
+        
         'urlManager' => [
-            'enablePrettyUrl' => true,
+            'enablePrettyUrl' => false,
             'showScriptName' => false,
             'rules' => [
+                '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',            
             ],
         ],
-        */
+        
     ],
     'as beforeRequest' => [
         'class' => 'yii\filters\AccessControl',
