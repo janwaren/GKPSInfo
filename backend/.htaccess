@@ -3,5 +3,8 @@ RewriteEngine on
 # If a directory or a file exists, use the request directly
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
-# Otherwise forward the request to index.php
-#RewriteRule . index.php
+# Forward to frontend
+RewriteRule ^(.*)?$ frontend/web/$1
+    
+RewriteCond %{HTTP_HOST} ^localhost/gkpsinfo$
+RewriteRule ^$ http://localhost/gkpsinfo/index.php [L,R=301]   
